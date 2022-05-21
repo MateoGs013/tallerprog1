@@ -6,7 +6,7 @@ function calcular_baskara(a1,b1,c1) {
     const resultado1 = -(b1 + parte3) / (2*a1)
     const resultado2 = -(b1 - parte3) / (2*a1)
     
-    return resultado1.toFixed(2)+''+ resultado2.toFixed(2)
+    return resultado1.toFixed(2)+' '+ resultado2.toFixed(2)
 }
 function mostrar_baskara() {
 
